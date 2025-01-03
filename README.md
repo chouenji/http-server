@@ -10,4 +10,4 @@ To generate a self-signed SSL certificate, run the following command:
 openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes
 
 ## Running the program
-Run python3 main.py  Http-server and Https-server
+Run python3 main.py  for Http-server and Https-server
